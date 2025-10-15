@@ -1,12 +1,9 @@
-- name: Run script
-  run: python submit_indexnow.py
-  working-directory: AeyeCRM
-  env:
-    INDEXNOW_API_KEY: ${{ secrets.INDEXNOW_API_KEY }}
+name: Submit URLs to IndexNow
+
 on:
   schedule:
-    - cron: '0 2 * * *'  # Daily at 2:00 AM UTC
-  workflow_dispatch:    # Allows manual triggering in GitHub UI
+    - cron: '0 2 * * *'  # Run daily at 2:00 AM UTC
+  workflow_dispatch:    # Allow manual triggering in GitHub UI
 
 jobs:
   submit:
@@ -25,9 +22,12 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+        # Remove or change working-directory if your requirements.txt is not in root
+        # working-directory: AeyeCRM
 
       - name: Run the submission script
         run: python submit_indexnow.py
         env:
           INDEXNOW_API_KEY: ${{ secrets.INDEXNOW_API_KEY }}
-          # Pass additional variables as needed
+        # Use working-directory here only if your script is inside a folder
+        # working-directory: AeyeCRM
