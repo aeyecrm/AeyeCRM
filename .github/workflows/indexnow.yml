@@ -3,7 +3,6 @@
   working-directory: AeyeCRM
   env:
     INDEXNOW_API_KEY: ${{ secrets.INDEXNOW_API_KEY }}
-
 on:
   schedule:
     - cron: '0 2 * * *'  # Daily at 2:00 AM UTC
