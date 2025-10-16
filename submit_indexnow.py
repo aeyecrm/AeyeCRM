@@ -22,7 +22,7 @@ def submit_urls_to_indexnow(url_list, api_key, key_location, host="https://api.i
 if __name__ == "__main__":
     # Use the provided API key and key location
     API_KEY = os.getenv("INDEXNOW_API_KEY", "dc7517d82d734358904c44b7a17f3122")
-    KEY_LOCATION = "https://www.aeyecrm.com/hubfs/dc7517d82d734358904c44b7a17f3122-1.txt"
+    KEY_LOCATION = "https://aeyecrm.com/dc7517d82d734358904c44b7a17f3122.txt"
 
     # List URLs you want to submit
     urls = [
