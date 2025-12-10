@@ -27,4 +27,4 @@ jobs:
         run: python submit_indexnow.py
         env:
           INDEXNOW_API_KEY: ${{ secrets.INDEXNOW_API_KEY }}
-        # working-directory: AeyeCRM  # uncomment and adjust if your script is in a folder
+        # working-directory: AeyeCRM llc  # uncomment and adjust if your script is in a folder
