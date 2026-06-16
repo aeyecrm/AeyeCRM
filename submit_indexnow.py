@@ -16,7 +16,7 @@ def fetch_urls_from_sitemap(sitemap_url):
 
 def submit_urls_to_indexnow(url_list, api_key, key_location, host="https://api.indexnow.org/indexnow"):
     payload = {
-        "host": "www.aeyecrm.com",
+        "host": "aeyecrm.com",
         "key": api_key,
         "keyLocation": key_location,
         "urlList": url_list
