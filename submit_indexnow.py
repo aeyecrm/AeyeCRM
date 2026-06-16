@@ -38,7 +38,7 @@ if __name__ == "__main__":
     # Use the provided API key and key location
     API_KEY = os.getenv("INDEXNOW_API_KEY", "dc7517d82d734358904c44b7a17f3122")
     KEY_LOCATION = "https://aeyecrm.com/dc7517d82d734358904c44b7a17f3122.txt"
-    SITEMAP_URL = "https://www.aeyecrm.com/sitemap.xml"  # Your sitemap URL
+    SITEMAP_URL = "https://aeyecrm.com/sitemap.xml"  # Your sitemap URL
     BATCH_SIZE = 1000  # URLs per submission (adjust as needed)
 
     # Fetch URLs from sitemap instead of hardcoding
