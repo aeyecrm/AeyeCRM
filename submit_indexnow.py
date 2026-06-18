@@ -15,6 +15,9 @@ EXTRA_LANDING_PAGES = [
     "https://aeyecrm.com/crm-services/industries/saas",
     "https://aeyecrm.com/crm-services/industries/professional-services",
     "https://aeyecrm.com/crm-services/industries/other",
+    "https://aeyecrm.com/crm-services/salesforce-vs-hubspot",
+    "https://aeyecrm.com/crm-services/salesforce/salesforce-sow-calculator",
+    "https://aeyecrm.com/crm-services/pricing"
 ]
 
 
