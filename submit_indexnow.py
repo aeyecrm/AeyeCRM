@@ -8,7 +8,7 @@ import xml.etree.ElementTree as ET
 # so we hard-code them here. Add new landing pages to this list as you build them.
 # -----------------------------------------------------------------------------
 EXTRA_LANDING_PAGES = [
-    "https://aeyecrm.com/crm-services/industries/family-business",
+    "https://aeyecrm.com/crm-services/industries/family-businesses",
     "https://aeyecrm.com/crm-services/industries/manufacturing",
     "https://aeyecrm.com/crm-services/industries/wholesale-distribution",
     "https://aeyecrm.com/crm-services/industries/retail",
@@ -17,7 +17,8 @@ EXTRA_LANDING_PAGES = [
     "https://aeyecrm.com/crm-services/industries/other",
     "https://aeyecrm.com/crm-services/salesforce-vs-hubspot",
     "https://aeyecrm.com/crm-services/salesforce/salesforce-sow-calculator",
-    "https://aeyecrm.com/crm-services/pricing"
+    "https://aeyecrm.com/crm-services/pricing",
+    "aeyecrm.com/crm-services/salesforce-consulting-partner"
 ]
 
 
